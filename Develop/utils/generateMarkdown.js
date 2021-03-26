@@ -39,7 +39,8 @@ ${data.deployed}
 ## Description
 
 ${renderImg(data.screenshot)}
-${data.description}
+
+> ${data.description}
 
 ## Installation
 
