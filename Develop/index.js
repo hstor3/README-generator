@@ -33,11 +33,6 @@ const questions = [
         message: 'Please provide contribution guidelines.',
     },
     {
-        type: 'input',
-        name: 'test',
-        message: 'What are the instructions for testing?',
-    },
-    {
         type: 'list',
         name: 'badges',
         message: 'Select a badge for your license.',
