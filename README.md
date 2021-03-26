@@ -18,7 +18,7 @@ https://hstor3.github.io/README-generator/
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributes](#contribute)
+* [Contributions](#contribute)
 * [Deployed Link](#deployedlink)
 * [Questions](#questions)
 * [Additional Info](#additional)
@@ -39,7 +39,7 @@ https://hstor3.github.io/README-generator/
 
 > To use this app, open your terminal and "cd" to the installed repo. If you have not installed node, you can do so by entering "npm install -y". Then enter "node index.js" and you will be prompted iwth questions.
 
-## Contributes
+## Contributions
 
 > If you'd like to contribute, open a pull request.
 
