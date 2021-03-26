@@ -25,6 +25,8 @@ https://hstor3.github.io/README-generator/
 
 ## Description
 
+[Installation/Usage Video](https://drive.google.com/file/d/1tgeXOF5woT7mUobjcZdKa-P5Vs-i86u3/view?usp=sharing)
+
 ![screenshot](./assets/codingimg.jpg)
 
 > For this project, you open your terminal and are prompted iwth questions. When finished answering the questions, a readme file is generated with your answers!
