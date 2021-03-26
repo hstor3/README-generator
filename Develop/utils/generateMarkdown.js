@@ -48,6 +48,8 @@ ${renderImg(data.screenshot)}
 
 ## Usage
 
+> ${data.usage}
+
 ## Contributes
 
 > ${data.contribution}
