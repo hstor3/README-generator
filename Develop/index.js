@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path')
-const { Certificate } = require('crypto');
+// const { Certificate } = require('crypto');
 const render = require('./utils/generateMarkdown')
 
 // array of questions 
@@ -31,7 +31,6 @@ const questions = [
         type: 'input',
         name: 'contribution',
         message: 'Please provide contribution guidelines.',
-        // npm run test
     },
     {
         type: 'input',
@@ -58,13 +57,12 @@ const questions = [
         type: 'checkbox',
         message: 'What languages are included in this project?',
         name: 'stack',
-        choices: ['HTML', 'CSS', 'JavaScript', 'Jquery', 'Node', 'Express', 'React', 'Vue', 'BootStrap']
+        choices: ['HTML', ' CSS', ' JavaScript', ' Jquery', ' Node', ' Express', ' React', ' Vue', ' BootStrap']
     },
     {
         type: 'confirm',
         name: 'screenshot',
         message: 'Would you like to add a screenshot?',
-
     },
     {
         type: 'input',
@@ -72,19 +70,11 @@ const questions = [
         message: 'Please enter the link to your deployed website.'
     },
     {
-        type: 'confirm',
-        name: 'again',
-        message: 'Do you have any more links you would like to add?'
+        type: 'input',
+        name: 'add',
+        message: 'Do you have additional links/information you would like to add?'
     },
-    {
-        type: 'confirm',
-        name: 'yn',
-        message: 'Ask a yes or no question.'
-    }
 ];
-
-// for loop to create a list
-// 
 
 function promptUser() {
     return inquirer
@@ -108,5 +98,3 @@ function init() {
 
 // call to initialize app
 init();
-
-// test

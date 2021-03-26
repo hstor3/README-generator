@@ -6,21 +6,21 @@ function renderImg(screenshot) {
     return ''
   }
 }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// ${data.something}.join${data.something}
 
 // function that generates markdown for README
 function generateMarkdown(data) {
   return `
 # ${data.title}
 
+[Find me on GitHub!](https://github.com/${data.user})
+
+
 ![GitHub License](https://img.shields.io/badge/license-${data.badges}-blue?style=flat&logo=appveyor) 
+## Languages 
+
+> ${data.stack}
+
 ## Deployed Link
 
 ${data.deployed}
@@ -34,6 +34,7 @@ ${data.deployed}
 * [Contributes](#contribute)
 * [Deployed Link](#deployedlink)
 * [Questions](#questions)
+* [Additional Info](#additional)
 
 ## Description
 
@@ -46,13 +47,14 @@ ${data.description}
 
 ## Usage
 
-## Test 
-
-> ${data.test}
-
 ## Contributes
 
-[GitHub](https://github.com/${data.user})
+> ${data.contribution}
+
+## Additional Info
+
+> ${data.add}
+
 [Email me with questions!](${data.email})
 `;
 }
