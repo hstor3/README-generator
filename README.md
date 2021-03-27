@@ -18,10 +18,10 @@ https://hstor3.github.io/README-generator/
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributions](#contribute)
+* [Contributions](#contributions)
 * [Deployed Link](#deployedlink)
 * [Questions](#questions)
-* [Additional Info](#additional)
+* [Additional Info](#additional_info)
 
 ## Description
 
@@ -46,5 +46,7 @@ https://hstor3.github.io/README-generator/
 ## Additional Info
 
 > Not at this time
+
+## Questions
 
 [Email me with questions!](heatherstorseth3@gmail.com)

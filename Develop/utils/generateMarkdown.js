@@ -31,7 +31,7 @@ ${data.deployed}
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributes](#contribute)
+* [Contributions](#contributions)
 * [Deployed Link](#deployedlink)
 * [Questions](#questions)
 * [Additional Info](#additional)
@@ -50,13 +50,15 @@ ${renderImg(data.screenshot)}
 
 > ${data.usage}
 
-## Contributes
+## Contributions
 
 > ${data.contribution}
 
 ## Additional Info
 
 > ${data.add}
+
+## Questions
 
 [Email me with questions!](${data.email})
 `;
